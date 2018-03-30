@@ -1,0 +1,142 @@
+body{
+  background: yellow;
+  color: white;
+  margin: 0;
+}
+body::after{
+    position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
+    content:url(../img/2.gif);
+}
+
+.container{
+  background: #212121;
+   height:100vh;
+
+}
+.board{
+  background: red;
+  width: 30%;
+  height: 40%;
+  float: left;
+  background: url('../img/1.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.board:hover {
+    background: url('../img/2.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lamp{
+  background: orange;
+  width: 20%;
+  height: 40%;
+  float: left;
+  background: url('../img/1.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: cover;
+
+}
+.lamp:hover {
+    background: url('../img/2.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.timer{
+  background: yellow;
+  width: 20%;
+  height: 40%;
+  float: left;
+  background: url('../img/1.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.timer:hover {
+    background: url('../img/2.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.emptyRight{
+  background: pink;
+  width: 30%;
+  height: 40%;
+  float: left;
+  background: url('../img/1.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.emptyRight:hover {
+    background: url('../img/2.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.artist{
+  background: purple;
+  width: 30%;
+  height: 60%;
+  float: left;
+  background: url('../img/1.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.artist:hover {
+    background: url('../img/2.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.emptymid{
+  background: gray;
+  width: 40%;
+  height: 60%;
+  float: left;
+  background: url('../img/1.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.emptymid:hover {
+    background: url('../img/2.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.programming{
+  background: blue;
+  width: 30%;
+  height: 60%;
+  float: left;
+  background: url('../img/1.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.programming:hover {
+    background: url('../img/2.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.clearfix{
+  clear: both;
+}
